@@ -1,5 +1,7 @@
 # PRISMA
 
+![Exploración visual PRISMA](./marca/assets/exploraciones/01-sistema-visual-prisma.png)
+
 PRISMA es un espacio de trabajo estratégico, metodológico, comercial y tecnológico para construir una biblioteca de instrumentos diagnósticos digitales orientados a decisiones institucionales de alto costo.
 
 El primer foco de mercado son las universidades e instituciones de educación superior en Colombia. El primer instrumento es **PRISMA Permanencia**: un instrumento de preparación, fragilidad temprana y riesgo de permanencia para estudiantes de ingreso.
@@ -72,6 +74,14 @@ Primer instrumento:
 - `investigacion/`: notas, evidencia, fuentes, entrevistas y aprendizaje institucional.
 - `marca/`: narrativa, lenguaje, naming y sistema de mensajes.
 - `plantillas/`: estructuras reutilizables para crear nuevos instrumentos.
+
+## Exploración Visual
+
+El repositorio incluye una primera exploración visual de PRISMA en:
+
+[exploraciones visuales](./marca/exploraciones-visuales.md)
+
+Estas imágenes no son identidad final aprobada. Funcionan como insumos para alinear criterio visual, tono institucional y dirección de marca.
 
 ## No Objetivos Por Ahora
 
