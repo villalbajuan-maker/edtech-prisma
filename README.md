@@ -1,66 +1,67 @@
-# PRISMA Diagnostics
+# PRISMA
 
-PRISMA is a business and product workbench for building a library of digital diagnostic instruments for high-cost institutional decisions.
+PRISMA es un espacio de trabajo estratégico, metodológico, comercial y tecnológico para construir una biblioteca de instrumentos diagnósticos digitales orientados a decisiones institucionales de alto costo.
 
-The first market focus is higher education institutions in Colombia. The first instrument is PRISMA Permanencia: a preparation and student permanence risk diagnostic instrument for incoming students.
+El primer foco de mercado son las universidades e instituciones de educación superior en Colombia. El primer instrumento es **PRISMA Permanencia**: un instrumento de preparación, fragilidad temprana y riesgo de permanencia para estudiantes de ingreso.
 
-## Core Thesis
+## Tesis Central
 
-Institutions do not need more generic forms. They need well-engineered diagnostic instruments that convert responses into institutional insight, segmentation, prioritization, and action.
+Las instituciones no necesitan más formularios genéricos.
 
-PRISMA instruments are designed to help institutions answer:
+Necesitan instrumentos muy bien diseñados, muy bien preparados y metodológicamente trazables que conviertan respuestas en lectura institucional, segmentación, priorización y acción.
 
-- What is happening?
-- Who is affected?
-- What type of risk, gap, or opportunity exists?
-- What should be prioritized?
-- Which institutional action should follow?
-- How should the result be interpreted responsibly?
+PRISMA existe para ayudar a las instituciones a responder:
 
-## What This Repository Is
+- qué está ocurriendo;
+- a quién le ocurre;
+- qué tipo de brecha, fragilidad, riesgo u oportunidad existe;
+- qué debe priorizarse;
+- qué acción institucional debería activarse;
+- cómo debe interpretarse el resultado de forma responsable.
 
-This repository is the strategic, methodological, commercial, and product architecture workspace for PRISMA.
+## Qué Es Este Repositorio
 
-It is not yet a software application repository.
+Este repositorio es la base de trabajo para desarrollar PRISMA como unidad de negocio, biblioteca de instrumentos y eventual plataforma de operación.
 
-It exists to define:
+No es todavía un repositorio de aplicación tecnológica ni de software como servicio.
 
-- the business category;
-- the problem-solution fit;
-- the instrument design methodology;
-- the first instrument portfolio;
-- the commercial packaging;
-- the platform requirements that emerge from real instrument needs.
+Aquí se define:
 
-## Initial Scope
+- la categoría de negocio;
+- el ajuste problema-solución;
+- la metodología de diseño de instrumentos;
+- el primer portafolio;
+- el empaquetamiento comercial;
+- los requerimientos de plataforma que emerjan de los instrumentos reales.
 
-The first collection is:
+## Alcance Inicial
 
-`PRISMA Higher Education`
+Primera colección:
 
-The first instrument is:
+`PRISMA Educación Superior`
+
+Primer instrumento:
 
 `PRISMA Permanencia`
 
-## Repository Map
+## Mapa Del Repositorio
 
-- `strategy/`: business thesis, category design, positioning, scope, and strategic decisions.
-- `market/`: segment analysis, customer profiles, buyers, economic pain, and market notes.
-- `problem-solution-fit/`: problem hypotheses, microproblem forensics, solution mapping, and validation logic.
-- `instruments/`: instrument portfolio and per-instrument design packages.
-- `platform/`: product architecture, data model, reporting requirements, and future technical direction.
-- `commercial/`: pricing logic, offers, sales narrative, pilots, and packaging.
-- `operations/`: implementation flow, institutional rollout, support, and delivery model.
-- `governance/`: methodology standards, ethics, privacy, quality control, and instrument lifecycle.
-- `research/`: interview notes, secondary research, source tracking, and evidence.
-- `brand/`: naming, messaging, product language, and narrative system.
-- `templates/`: reusable templates for designing new instruments.
+- `estrategia/`: tesis de categoría, posicionamiento, alcance y decisiones estratégicas.
+- `mercado/`: segmentos, compradores, dolor económico y contexto de mercado.
+- `ajuste-problema-solucion/`: hipótesis de problema, análisis forense de microproblemas, mapeo de solución y lógica de validación.
+- `instrumentos/`: portafolio y paquetes de diseño de cada instrumento.
+- `plataforma/`: arquitectura de producto, objetos de datos, reportes y dirección tecnológica futura.
+- `comercial/`: modelos de ingreso, empaques, narrativa de venta y ofertas.
+- `operaciones/`: aplicación institucional, soporte, flujo de implementación y modelo de servicio.
+- `gobernanza/`: estándares metodológicos, ética, privacidad, calidad y ciclo de vida de instrumentos.
+- `investigacion/`: notas, evidencia, fuentes, entrevistas y aprendizaje institucional.
+- `marca/`: narrativa, lenguaje, naming y sistema de mensajes.
+- `plantillas/`: estructuras reutilizables para crear nuevos instrumentos.
 
-## Non-Goals For Now
+## No Objetivos Por Ahora
 
-- Do not build a landing page yet.
-- Do not build SaaS before the instrument model is clear.
-- Do not reduce PRISMA to a survey tool.
-- Do not make AI the product.
-- Do not mix this work with the existing EduTech Marketing repository.
-
+- No construir landing page todavía.
+- No construir software como servicio antes de tener claro el modelo de instrumentos.
+- No reducir PRISMA a una herramienta de encuestas.
+- No poner la IA como producto central.
+- No mezclar este trabajo con el repositorio de EduTech Marketing.
