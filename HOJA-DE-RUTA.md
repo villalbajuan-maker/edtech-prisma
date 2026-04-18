@@ -71,7 +71,7 @@ Entregables:
 - versionamiento de instrumentos;
 - modelo de privacidad y uso de datos.
 
-## Fase 5: Prototipo Tecnológico Viable
+## Fase 5: MVP Tecnológico
 
 Objetivo: construir solo después de que el instrumento y el modelo comercial estén suficientemente claros.
 
