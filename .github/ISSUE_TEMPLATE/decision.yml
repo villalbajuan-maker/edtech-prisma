@@ -1,0 +1,34 @@
+name: Decisión
+description: Registrar una decisión estratégica, metodológica, comercial o técnica
+title: "[Decisión] "
+labels: ["revision", "estrategia"]
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decisión a tomar
+      description: Qué decisión se necesita.
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Por qué importa esta decisión.
+    validations:
+      required: true
+  - type: textarea
+    id: opciones
+    attributes:
+      label: Opciones consideradas
+      description: Lista las opciones, ventajas y riesgos.
+    validations:
+      required: false
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto esperado
+      description: Qué cambia después de decidir.
+    validations:
+      required: true
+

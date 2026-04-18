@@ -4,6 +4,17 @@ PRISMA es un espacio de trabajo estratégico, metodológico, comercial y tecnol�
 
 El primer foco de mercado son las universidades e instituciones de educación superior en Colombia. El primer instrumento es **PRISMA Permanencia**: un instrumento de preparación, fragilidad temprana y riesgo de permanencia para estudiantes de ingreso.
 
+## Empieza Aquí
+
+Si estás entrando al proyecto por primera vez, lee en este orden:
+
+1. [EMPIEZA-AQUI.md](./EMPIEZA-AQUI.md)
+2. [EQUIPO.md](./EQUIPO.md)
+3. [HOJA-DE-RUTA.md](./HOJA-DE-RUTA.md)
+4. [KANBAN.md](./ejecucion/KANBAN.md)
+5. [oferta-minima-vendible.md](./comercial/oferta-minima-vendible.md)
+6. [resumen-instrumento.md](./instrumentos/prisma-permanencia/resumen-instrumento.md)
+
 ## Tesis Central
 
 Las instituciones no necesitan más formularios genéricos.
@@ -46,6 +57,10 @@ Primer instrumento:
 
 ## Mapa Del Repositorio
 
+- `EMPIEZA-AQUI.md`: entrada rápida para entender el proyecto.
+- `EQUIPO.md`: equipo fundacional, roles y aportes esperados.
+- `COLABORACION.md`: cómo trabajar dentro del repositorio.
+- `ejecucion/`: Kanban, tareas, etiquetas, timeline y rituales de trabajo.
 - `estrategia/`: tesis de categoría, posicionamiento, alcance y decisiones estratégicas.
 - `mercado/`: segmentos, compradores, dolor económico y contexto de mercado.
 - `ajuste-problema-solucion/`: hipótesis de problema, análisis forense de microproblemas, mapeo de solución y lógica de validación.
@@ -65,3 +80,18 @@ Primer instrumento:
 - No reducir PRISMA a una herramienta de encuestas.
 - No poner la IA como producto central.
 - No mezclar este trabajo con el repositorio de EduTech Marketing.
+
+## Estado Actual
+
+PRISMA está en fase de fundamento estratégico y diseño del primer instrumento.
+
+La prioridad actual es llevar **PRISMA Permanencia** a un MVP aplicable:
+
+- oferta mínima vendible;
+- arquitectura metodológica;
+- banco de preguntas V1;
+- modelo de puntuación;
+- perfiles de salida;
+- matriz de recomendaciones;
+- reportes institucionales;
+- paquete comercial para conversaciones con IES.

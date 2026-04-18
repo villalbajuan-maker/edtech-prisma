@@ -1,0 +1,56 @@
+name: Tarea
+description: Crear una tarea de ejecución para PRISMA
+title: "[Tarea] "
+labels: ["por-hacer"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Explica por qué esta tarea importa.
+    validations:
+      required: true
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado esperado
+      description: Qué debe existir cuando la tarea esté terminada.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - estrategia
+        - problema
+        - instrumento
+        - metodología
+        - puntuación
+        - reportes
+        - comercial
+        - validación
+        - plataforma
+        - gobernanza
+        - repo
+    validations:
+      required: true
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: Prioridad
+      options:
+        - P0
+        - P1
+        - P2
+        - P3
+    validations:
+      required: true
+  - type: input
+    id: responsable
+    attributes:
+      label: Responsable sugerido
+      placeholder: Juan, Camilo, Leonardo o equipo
+    validations:
+      required: false
+

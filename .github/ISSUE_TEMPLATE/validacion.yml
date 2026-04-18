@@ -1,0 +1,41 @@
+name: Validación Con Institución
+description: Registrar aprendizaje de una conversación con universidad o IES
+title: "[Validación] "
+labels: ["validación", "revision"]
+body:
+  - type: input
+    id: institucion
+    attributes:
+      label: Institución
+      description: Nombre o referencia de la institución.
+    validations:
+      required: false
+  - type: input
+    id: rol
+    attributes:
+      label: Rol de la persona
+      placeholder: rectoría, bienestar, permanencia, decanatura, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: dolor
+    attributes:
+      label: Dolor identificado
+      description: Qué problema real apareció en la conversación.
+    validations:
+      required: true
+  - type: textarea
+    id: lenguaje
+    attributes:
+      label: Lenguaje del cliente
+      description: Frases o palabras textuales relevantes.
+    validations:
+      required: false
+  - type: textarea
+    id: implicacion
+    attributes:
+      label: Implicación para PRISMA
+      description: Qué deberíamos ajustar, validar o construir.
+    validations:
+      required: true
+
